@@ -7,6 +7,7 @@ const connectDB = new pg.Client({
       user: process.env.RDS_USERNAME,
       password: process.env.RDS_PASSWORD,
       port: process.env.RDS_PORT,
+      database: process.env.RDS_DATABASE
   })
 
 export const handler = async (event) => {
