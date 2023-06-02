@@ -1,8 +1,8 @@
 ### Create Lambda Function
 
-Create function name 'summer-test-1'
-Configuration with VPC (default)
-Config ENV 
+1. Create function name 'summer-test-1'
+2. Configuration with VPC (default)
+3. Config ENV 
      * RDS_DATABASE
      * RDS_HOSTNAME
      * RDS_PASSWORD
