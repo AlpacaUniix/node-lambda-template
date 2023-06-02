@@ -28,7 +28,7 @@ Write code in index.js to config env and add function create database to and che
 ### Create Security group rules
 * Add Inbound rules setting subnet 0.0.0.0/0 because my pc used this ip to connect DB
 <img src="image/SecurityGroups.png">
-<img src="image/YourVPC.png">
+<img src="image/YoutVPC.png">
 
 ### Create RDS
 
