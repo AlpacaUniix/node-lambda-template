@@ -8,7 +8,9 @@
      * RDS_PASSWORD
      * RDS_PORT
      * RDS_USERNAME	
-add triggers API Gateway
+4. add triggers API Gateway
+
+<img src="AWSlambda">
 
 ### Create API Gateway
 * Create resource '/myapi'
