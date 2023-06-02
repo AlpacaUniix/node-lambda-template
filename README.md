@@ -1,5 +1,7 @@
 ### Create Lambda Function
 
+Write code in index.js to config env and add function create database to and check data base to inserTable
+
 1. Create function name 'summer-test-1'
 <img src="image/AWSlambda.png">
 
