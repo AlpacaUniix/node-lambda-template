@@ -1,32 +1,27 @@
-[![Donate](http://www.opensourcecitizen.org/badge)](http://www.opensourcecitizen.org/project?url=github.com/motdotla/node-lambda-template)
+### Create Lambda Function
 
-If you found this library useful, donate some CPU cycles to this project by clicking above. Thank you! 😇
+Create function name 'summer-test-1'
+Configuration with VPC (default)
+Config ENV 
+     - RDS_DATABASE
+     - RDS_HOSTNAME
+     - RDS_PASSWORD
+     - RDS_PORT
+     - RDS_USERNAME	
+add triggers API Gateway
 
-# node-lambda-template
+### Create API Gateway
+Create resource '/myapi'
+Create method post
+connect to lamdafunction name 'summer-test-1'
 
-![node-lambda-template](../master/node-lambda-template.png?raw=true)
+### Create Security group rules
+Add Inbound rules setting subnet 0.0.0.0/0 because my pc used this ip to connect DB
 
-The bare minimum for a node.js app running on [Amazon Lambda](http://aws.amazon.com/lambda/).
+![securityg](https://ibb.co/p10xL48)
 
-It uses [node-lambda](https://github.com/motdotla/node-lambda) under the hood to locally run and also deploy your node.js Amazon Lambda application.
+### Create RDS
 
-## Install
-
-Clone this repository.
-
-```
-cd /to/your/template/path
-npm install
-```
-
-## Usage
-
-There are 4 available commands to use on this template. For more info and usage descriptions, see the [node-lambda](https://github.com/motdotla/node-lambda) repository.
-
-```
-cd /to/your/template/path
-npm run setup # setup node-lambda files
-npm run test # test your event handler and check output
-npm run package # just generate the zip that would be uploaded to AWS
-npm run deploy # deploy to AWS
-```
+Create database name 'db-summer-1'
+Add Security group rules to default 
+Add IAM role
