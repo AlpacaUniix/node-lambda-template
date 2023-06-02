@@ -10,7 +10,7 @@
      * RDS_USERNAME	
 4. add triggers API Gateway
 
-<img src="AWSlambda">
+<img src="image/AWSlambda.png">
 
 ### Create API Gateway
 * Create resource '/myapi'
