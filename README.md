@@ -37,3 +37,8 @@ Write code in index.js to config env and add function create database to and che
 * Add IAM role
 
 <img src="image/ConfigRDS.png">
+
+And can connect DB in local but cant connect in AWS ka T-T
+<img src="image/TablePlus.png">
+
+
